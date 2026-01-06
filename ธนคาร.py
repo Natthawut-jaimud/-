@@ -18,4 +18,7 @@ class BankAcconut():
         return self.__balance
     
 
-bankAcconut
+bankAcconut = BankAcconut()
+bankAcconut.deposit(1000)
+bankAcconut.withdraw(1000)
+print(f"เช็คจำนวนเงิน {bankAcconut.check_balance()}")
