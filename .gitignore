@@ -1,0 +1,21 @@
+# Secrets
+.env
+.env.local
+
+# Raw footage and every render/edit output
+footage/*
+!footage/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+uv.lock
+
+# Node (HyperFrames projects install on demand)
+node_modules/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

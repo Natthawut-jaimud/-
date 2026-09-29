@@ -1,0 +1,19 @@
+[project]
+name = "video-studio"
+version = "0.1.0"
+description = "Claude Code video editing studio (video-use + HyperFrames skills)"
+requires-python = ">=3.10"
+# Dependencies of .claude/skills/video-use/helpers
+dependencies = [
+    "requests",
+    "librosa",
+    "matplotlib",
+    "pillow",
+    "numpy",
+]
+
+[project.optional-dependencies]
+animations = ["manim"]
+
+[tool.uv]
+package = false
