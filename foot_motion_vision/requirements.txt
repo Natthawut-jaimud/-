@@ -1,0 +1,5 @@
+numpy>=1.24
+opencv-python>=4.8
+mediapipe>=0.10.14
+# Optional: high-speed fallback backend (YOLOv8-Pose)
+# ultralytics>=8.1

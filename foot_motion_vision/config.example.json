@@ -1,0 +1,21 @@
+{
+  "smoothing": {
+    "method": "one_euro",
+    "min_cutoff": 1.0,
+    "beta": 0.05,
+    "d_cutoff": 2.0,
+    "ema_alpha": 0.55
+  },
+  "gestures": {
+    "lift_height": 0.05,
+    "stomp_speed": 2.0,
+    "kick_min_height": 0.30,
+    "kick_min_knee_angle": 140.0,
+    "jump_hip_rise": 0.08
+  },
+  "hybrid": {
+    "miss_frames": 3,
+    "high_speed": 12.0,
+    "hold_s": 0.6
+  }
+}
